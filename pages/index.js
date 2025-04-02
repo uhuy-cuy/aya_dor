@@ -1,4 +1,5 @@
-import Head from "next/head";
+//import Head from "next/head";
+//hapus tag atas untuk aktifkan
 import Script from "next/script";
 import { useEffect } from "react";
 
