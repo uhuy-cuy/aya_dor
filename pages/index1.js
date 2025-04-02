@@ -1,12 +1,12 @@
-//import Head from "next/head";
+import Head from "next/head";
 
-//import Script from "next/script";
-//import { useEffect } from "react";
+import Script from "next/script";
+import { useEffect } from "react";
 
 //hapus tag atas untuk aktifkan
 
-//export default function Home() {
- // useEffect(() => {
+export default function Home() {
+useEffect(() => {
 //hapus tag atas untuk aktifkan
     if (typeof window !== "undefined" && window.Swal) {
       document.getElementById("tembakButton")?.addEventListener("click", () => {
@@ -95,7 +95,7 @@
     }
   }, []);
 
-  //return (
+  return (
 //hapus tag atas untuk aktifitasi
     <>
       <Head>
