@@ -6,8 +6,8 @@
 //hapus tag atas untuk aktifkan
 
 //export default function Home() {
+ // useEffect(() => {
 //hapus tag atas untuk aktifkan
-  useEffect(() => {
     if (typeof window !== "undefined" && window.Swal) {
       document.getElementById("tembakButton")?.addEventListener("click", () => {
         window.Swal.fire({
@@ -95,7 +95,8 @@
     }
   }, []);
 
-  return (
+  //return (
+//hapus tag atas untuk aktifitasi
     <>
       <Head>
         <title>💘 Aya & @tahirwiyann</title>
